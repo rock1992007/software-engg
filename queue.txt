@@ -1,0 +1,2 @@
+A queue is an example of a linear data structure, or more abstractly a sequential collection. Queues are common in computer programs, 
+where they are implemented as data structures coupled with access routines, as an abstract data structure or in object-oriented languages as classes.
