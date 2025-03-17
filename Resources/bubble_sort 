@@ -1,3 +1,9 @@
+import shutil
+import time
+usage = shutil.disk_usage(path=r"C:\Users\Hp\Documents")
+s_time = time.time()
+
+
 def bubble_sort_recursive(arr, n):
     if n == 1:
         return
@@ -12,3 +18,7 @@ def bubble_sort_recursive(arr, n):
 arr = [64, 34, 25, 12, 22, 11, 90]
 bubble_sort_recursive(arr, len(arr))
 print("Sorted array:", arr)
+
+e_time = time.time()
+print("Disk usage statistics : ", usage)
+print("Time Complexity of the progarm : ",e_time - s_time)
